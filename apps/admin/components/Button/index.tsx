@@ -3,8 +3,10 @@ import React from "react";
 import * as S from './styles'
 
 
-export default function Button() {
+function Button() {
   return <S.ButtoncContainer>Button</S.ButtoncContainer>;
 }
 
+
+export default Button;
 
