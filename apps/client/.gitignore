@@ -9,6 +9,10 @@
 # testing
 /coverage
 
+
+# turbo
+.turbo
+
 # next.js
 /.next/
 /out/
