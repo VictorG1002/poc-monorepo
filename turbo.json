@@ -1,13 +1,10 @@
 {
   "$schema": "https://turbo.build/schema.json",
-  "globalDependencies": ["**/.env.*local"],
+  "globalDependencies": ["**/.env.*local" , "**/my-lib"],
   "pipeline": {
     "build": {
       "dependsOn": ["^build"],
-      "outputs": [".next/**", "!.next/cache/**"],
-       "globalDependencies": [
-        "my-lib"
-      ]
+      "outputs": [".next/**", "!.next/cache/**"]
     },
     "deploy": {
       "dependsOn": ["build", "test", "lint"]
@@ -16,7 +13,5 @@
       "cache": false,
       "persistent": true
     }
-
-  
   }
 }
