@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ChadButtonContainer = styled.div`
-  background: red;
+  background: green;
 
   padding: 20px;
 `;
