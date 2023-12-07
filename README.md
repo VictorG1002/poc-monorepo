@@ -32,16 +32,16 @@ This project was a proof of concept to test the migration from a single-repo to 
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/VictorG1002/TempoHoje.git
+$ git clone https://github.com/VictorG1002/poc-monorepo.git
 
 # Go into the repository
-$ cd TempoHoje
+$ cd poc-monorepo
 
 # Install dependencies
 $ npm install
 
-# Run the app
-$ npm start
+# Run all apps
+$ turbo dev
 ```
 
 
